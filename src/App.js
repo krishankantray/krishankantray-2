@@ -6,6 +6,10 @@ import menu from './images/menu.png';
 import gesture from './images/gesture.jpg';
 import portfolio from './images/portfolio.png';
 import undercontruction from './images/undercontruction.jpg';
+import cpp from './images/c++.png'; 
+import js from './images/js.png';
+import sql from './images/sql.png';
+import react from './images/react.png';
 
 import {
   CardWrapper,
@@ -171,6 +175,24 @@ const Logo = styled.img`
 
 `;
 
+//=======================================
+// This is for programming lanhuege icons. 
+//=======================================
+
+const Language = styled.img`
+  width:80px;
+  height: 80px;
+  margin-right: 50px;
+
+  @media screen and (max-width: 768px){
+    width:40px;
+    height: 40px;
+    
+  }
+
+`;
+
+
 //==================================================================
 // This is for Hamberger icon on right corner when viewed on mobile
 //==================================================================
@@ -311,6 +333,12 @@ export default function App() {
         <br/>
         And that's it about me. 😊
       </Para>
+      <div>
+      <Language src={cpp} />
+      <Language src={js} />
+      <Language src={react} />
+      <Language src={sql} />
+      </div>
       <Titles>Projects</Titles>
       <br />
 
