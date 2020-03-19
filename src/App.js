@@ -97,7 +97,7 @@ export default function App(){
 <CardImage src={gesture} />
         <CardBody>
           <CardFieldset>
-            <CardOptionsNote>This Project is blah blah</CardOptionsNote>
+            <CardOptionsNote>This projects aims at detecting hand gestures and use it as a virtual mouse</CardOptionsNote>
           </CardFieldset>
           <CardFieldset>
             <CardButton type="button">See Project</CardButton>
@@ -111,7 +111,7 @@ export default function App(){
         <CardImage src={portfolio} /> 
         <CardBody>
           <CardFieldset>
-            <CardOptionsNote>This Project is blah blah</CardOptionsNote>
+            <CardOptionsNote>This Project is same webiste which you are currently viewing</CardOptionsNote>
           </CardFieldset>
           <CardFieldset>
             <CardButton type="button">See Project</CardButton>
@@ -125,7 +125,7 @@ export default function App(){
 <CardImage src={undercontruction} />
         <CardBody>
           <CardFieldset>
-            <CardOptionsNote>This Project is blah blah</CardOptionsNote>
+            <CardOptionsNote>The aim of this project is to allow users to download youtube videos and even entire playlist.</CardOptionsNote>
           </CardFieldset>
           <CardFieldset>
             <CardButton type="button">See Project</CardButton>
@@ -139,7 +139,7 @@ export default function App(){
 <CardImage src={undercontruction} />
         <CardBody>
           <CardFieldset>
-            <CardOptionsNote>This Project is blah blah</CardOptionsNote>
+            <CardOptionsNote>This Project is currently available at https://krishankantray.blogspot.com/ </CardOptionsNote>
           </CardFieldset>
           <CardFieldset>
             <CardButton type="button">See Project</CardButton>
@@ -154,7 +154,7 @@ export default function App(){
 <CardImage src={undercontruction} />
         <CardBody>
           <CardFieldset>
-            <CardOptionsNote>This Project is blah blah</CardOptionsNote>
+            <CardOptionsNote>This is a simple application that reads your resume in json format and converts it into selected template pdf.</CardOptionsNote>
           </CardFieldset>
           <CardFieldset>
             <CardButton type="button">See Project</CardButton>
