@@ -33,6 +33,7 @@ export const Titles = styled.h1`
 color:white ;
 display: flex;
 justify-content:flex-start;
+
 margin-right:auto;
 font-size:30px;
 
@@ -146,8 +147,8 @@ export const Language = styled.img`
   margin-right: 50px;
 
   @media screen and (max-width: 768px){
-    width:40px;
-    height: 40px;
+    width:20px;
+    height: 20px;
     
   }
 

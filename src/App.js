@@ -9,6 +9,7 @@ import cpp from './images/c++.png';
 import js from './images/js.png';
 import sql from './images/sql.png';
 import react from './images/react.png';
+import nodejs from './images/nodejs.png';
 
 import {
   KK, 
@@ -68,7 +69,7 @@ export default function App(){
       <Titles>About Me</Titles>
       <Para>
         Working as an Application Support Engineer at <b><font color='#389dd7'>C</font>VENT</b>, Gurgaon. 
-        Here, I works on SQL, noSQL and RESTful API based reporting framework and responsible for finding troubleshooting appication bugs.
+        Here, I works on SQL, noSQL and RESTful API based reporting framework and responsible for finding troubleshooting application bugs.
         <br />
         Just in case if you are intrested in knowing a little about my background, then here it is. Starting from school, during primary
         schooling days I used to be among top three rankers of my class. And my secondary schooling was spent mostly preparing for engineering
@@ -79,14 +80,18 @@ export default function App(){
         <br/>
         And that's it about me. 😊
       </Para>
-      <div>
+      <br/>
+      <Titles>Language worked on</Titles>
+      <div style={{marginLeft:'20px'}}>
       <Language src={cpp} />
       <Language src={js} />
       <Language src={react} />
       <Language src={sql} />
+      <Language src={nodejs} />
       </div>
+      <br/><br/>
       <Titles>Projects</Titles>
-      <br />
+      
 
       <div style={{margin:'20px', display:"flex", overflow:"auto", scrollbarColor:'red'}}>
         
@@ -94,7 +99,7 @@ export default function App(){
         <CardHeader>
           <CardHeading>Virtual Mouse</CardHeading>
         </CardHeader>
-<CardImage src={gesture} />
+          <CardImage src={gesture} />
         <CardBody>
           <CardFieldset>
             <CardOptionsNote>This projects aims at detecting hand gestures and use it as a virtual mouse</CardOptionsNote>
