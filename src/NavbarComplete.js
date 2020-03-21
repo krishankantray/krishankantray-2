@@ -55,12 +55,13 @@ export default function NavbarComplete(){
       
       <KK>Krishankant Ray</KK>
       <Hamberger src={menu} onClick={flipDrawer} />
+        <NavbarItem>Home</NavbarItem>
         <NavbarItem>Blog</NavbarItem>
         <NavbarItem>Resumè</NavbarItem>
         <NavbarItem>Contact</NavbarItem>
       </Navbar>
       <SideCard showsidebar={isDrawer}> 
-        
+          <SideButton type='button'>Home</SideButton>
           <SideButton type='button'>Blogs</SideButton>
           <SideButton type='button'>Resumè</SideButton>
           <SideButton type='button'>Contact</SideButton>

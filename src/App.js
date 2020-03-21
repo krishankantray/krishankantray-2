@@ -4,6 +4,7 @@ import { createGlobalStyle } from 'styled-components';
 
 import gesture from './images/gesture.jpg';
 import portfolio from './images/portfolio.png';
+import crud from './images/crud.jpg';
 import undercontruction from './images/undercontruction.jpg';
 import cpp from './images/c++.png'; 
 import js from './images/js.png';
@@ -93,7 +94,7 @@ export default function App(){
       <Titles>Projects</Titles>
       
 
-      <div style={{margin:'20px', display:"flex", overflow:"auto", scrollbarColor:'red'}}>
+      <div style={{margin:'20px', display:"flex", overflow:"auto", scrollbarColor:'dark'}}>
         
       <CardWrapper>
         <CardHeader>
@@ -109,6 +110,23 @@ export default function App(){
           </CardFieldset>
         </CardBody>
       </CardWrapper>
+
+      <CardWrapper>
+        <CardHeader>
+          <CardHeading>Demo CRUD app</CardHeading>
+        </CardHeader>
+        <CardImage src={crud} /> 
+        <CardBody>
+          <CardFieldset>
+            <CardOptionsNote>The is a basic CRUD application made with MERN stack ( M=Mysql)</CardOptionsNote>
+          </CardFieldset>
+          <CardFieldset>
+            <CardButton type="button">See Project</CardButton>
+          </CardFieldset>
+        </CardBody>
+      </CardWrapper>
+
+
       <CardWrapper>
         <CardHeader>
           <CardHeading>Portfolio Site</CardHeading>
