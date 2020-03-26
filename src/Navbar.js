@@ -121,6 +121,7 @@ font-weight:100;
 color: #a29ba3	;
 line-height: 1.6;
 margin-left:18px;
+margin-right:18px;
 `;
 //=======================================
 // This is for Logo on top left corner. 
