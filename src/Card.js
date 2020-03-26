@@ -168,7 +168,7 @@ export const CardButton = styled.button`
   padding: 12px 0;
   font-family: inherit;
   font-size: 14px;
-  font-weight: 700;
+  font-weight: 500;
   color: #fff;
   border: 0;
   border-radius: 35px;
@@ -176,7 +176,7 @@ export const CardButton = styled.button`
   cursor: pointer;
   transition: all 0.25s cubic-bezier(0.02, 0.01, 0.47, 1);
   background: rgb(255,79,0);
-background: linear-gradient(90deg, rgba(255,79,0,1) 0%, rgba(255,0,123,1) 85%);
+  background: linear-gradient(90deg, rgba(255,79,0,1) 0%, rgba(255,0,123,1) 85%);
   
   &:hover {
     box-shadow: 0 10px 10px #ae23a0;
@@ -186,8 +186,8 @@ background: linear-gradient(90deg, rgba(255,79,0,1) 0%, rgba(255,0,123,1) 85%);
     outline: 0 !important;
 }
 
-
 `;
+
 
 export const CardLink = styled.a`
   display: inline-block;
