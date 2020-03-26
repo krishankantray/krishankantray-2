@@ -32,7 +32,7 @@ import {
     CardLink,
     CardImage
   } from "./Card.js";
-  
+    
 
 
 export default function NavbarComplete(){

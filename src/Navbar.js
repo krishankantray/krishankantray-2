@@ -48,7 +48,7 @@ margin-left:20px;
 margin-top:30px;
 margin-bottom:10px;
 
-text-shadow: -3px 2px 0.15em #f2471f ;
+text-shadow: -1px 1px 0.15em #ff0000 ;
 
 @media screen and (max-width: 768px)  {
   font-size:20px;
@@ -67,12 +67,14 @@ export const Navbar = styled.div`
   
   justify-content: flex-end;
   align-items: center;  
-  background-color: #424651;
+
   height: 3rem;
-  background-image: linear-gradient(260deg, #2376ae 0%, #c16ecf 100%);
-  -webkit-box-shadow:0 0 50px #c16ecf; 
-  -moz-box-shadow: 0 0 50px #c16ecf; 
-  box-shadow:0 0 50px linear-gradient(260deg, # 0%, #c16ecf 100%);
+  background: rgb(255,79,0);
+  background: linear-gradient(90deg, rgba(255,79,0,0.87) 0%, rgba(255,0,123,0.87) 85%);
+  
+  -webkit-box-shadow:0 0 20px #FD00B4; 
+  -moz-box-shadow: 0 0 20px #FD00B4; 
+  box-shadow:0 0 50px linear-gradient(260deg, # 0%, #FD00B4 100%);
 `;
 
 
@@ -144,16 +146,36 @@ export const Logo = styled.img`
 export const Language = styled.img`
   width:80px;
   height: 80px;
-  margin-right: 50px;
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+  
 
   @media screen and (max-width: 768px){
-    width:20px;
-    height: 20px;
+    width:30px;
+    height: 30px;
     
   }
 
 `;
+// 
 
+export const LanguageCaption = styled.p`
+font-family: "Varela Round";
+text-align:center;
+font-size: 17px;
+font-weight:600;
+color: #a29ba3	;
+@media screen and (max-width: 768px){
+  font-size: 13px;
+  
+}
+
+
+`;
+
+
+//
 
 //==================================================================
 // This is for Hamberger icon on right corner when viewed on mobile
@@ -220,7 +242,7 @@ display:none;
   width: 100%;
   padding: 12px 0;
   font-family: inherit;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 700;
   color: #fff;
   background-color: #e5195f;
@@ -228,7 +250,8 @@ display:none;
   border-radius: 35px;
   box-shadow: 0 10px 10px rgba(0, 0, 0, .08);
   cursor: pointer;
-  background-image: linear-gradient(260deg, #2376ae 0%, #c16ecf 100%);
+  background: rgb(255,79,0);
+  background: linear-gradient(90deg, rgba(255,79,0,1) 0%, rgba(255,0,123,1) 85%);
   margin-top: 14%;
 
   &:hover {

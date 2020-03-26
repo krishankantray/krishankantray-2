@@ -11,6 +11,12 @@ import js from './images/js.png';
 import sql from './images/sql.png';
 import react from './images/react.png';
 import nodejs from './images/nodejs.png';
+import git from './images/git.png';
+import splunk from './images/splunk.png';
+import postman from './images/postman.svg';
+import newrelic from './images/newrelic.png';
+import kibana from './images/kibana.png';
+
 
 import {
   KK, 
@@ -20,6 +26,7 @@ import {
   Para, 
   Logo, 
   Language, 
+  LanguageCaption,
   Hamberger, 
   SideCard, 
   SideButton, 
@@ -82,14 +89,47 @@ export default function App(){
         And that's it about me. 😊
       </Para>
       <br/>
-      <Titles>Language worked on</Titles>
-      <div style={{marginLeft:'20px'}}>
-      <Language src={cpp} />
-      <Language src={js} />
-      <Language src={react} />
-      <Language src={sql} />
-      <Language src={nodejs} />
+      <Titles>Language/Libraries experience</Titles>
+      <div style={{marginLeft:'0px'}}>
+      <table border='0' cellspacing='20'>
+      <tr><td><Language src={cpp} /></td>
+      <td><Language src={js} /></td>
+      <td><Language src={react} /></td>
+      <td><Language src={sql} /></td>
+      <td><Language src={nodejs} /></td>
+      </tr>
+      
+      <tr>
+      <td><LanguageCaption>C++</LanguageCaption></td>
+      <td><LanguageCaption>JavaScript</LanguageCaption></td>
+      <td><LanguageCaption>ReactJS</LanguageCaption></td>
+      <td><LanguageCaption>SqlServer</LanguageCaption></td>
+      <td><LanguageCaption>NodeJS</LanguageCaption></td>
+      </tr>
+
+    </table>
+
+    
+      
       </div>
+
+      <br/>
+      <Titles>Tools Used : </Titles>
+      <table border='0' cellspacing='25'>
+      <tr><td><Language src={git} /></td>
+      <td><Language src={splunk} /></td>
+      <td><Language src={postman} /></td>
+      <td><Language src={newrelic} /></td>
+      <td><Language src={kibana} /></td>
+      </tr>
+      <tr>
+      <td><LanguageCaption>Git</LanguageCaption></td>
+      <td><LanguageCaption>Splunk</LanguageCaption></td>
+      <td><LanguageCaption>Postman</LanguageCaption></td>
+      <td><LanguageCaption>NewRelic</LanguageCaption></td>
+      <td><LanguageCaption>Kibana</LanguageCaption></td>
+      </tr>
+      </table>
       <br/><br/>
       <Titles>Projects</Titles>
       

@@ -33,7 +33,7 @@ export const CardWrapper = styled.div`
   margin-bottom: 20px;
   width: 300px;
   font-family: Quicksand, arial, sans-serif;
-  box-shadow: 0 0 20px rgba(241, 108, 221, 0.8), 0 0px 40px rgba(17, 5, 232, 0.7);
+  
   border-radius: 5px;
   background-color: #3b3c4066;
   font-family: "Varela Round"; 
@@ -43,15 +43,23 @@ export const CardWrapper = styled.div`
   
 `;
 
+
+
 export const CardHeader = styled.header`
-  color:#ab87b1bf;
+ 
 `;
 
 export const CardHeading = styled.h1`
-  font-size: 24px;
-  font-weight: bold;
-  text-align: center;
-  font-family: "Varela Round"; 
+color:white ;
+font-size:24px;
+font-family: "Varela Round"; 
+font-weight: 500; 
+text-align:center;
+text-shadow: -1px 1px 0.15em #ff0000 ;
+
+@media screen and (max-width: 768px)  {
+  font-size:16px;
+}
 `;
 
 export const CardBody = styled.div`
@@ -167,12 +175,18 @@ export const CardButton = styled.button`
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.08);
   cursor: pointer;
   transition: all 0.25s cubic-bezier(0.02, 0.01, 0.47, 1);
-  background-image: linear-gradient(260deg,#ae23a0 0%,#e25252 100%);
+  background: rgb(255,79,0);
+background: linear-gradient(90deg, rgba(255,79,0,1) 0%, rgba(255,0,123,1) 85%);
   
   &:hover {
     box-shadow: 0 10px 10px #ae23a0;
     transform: translate(0, -5px);
   }
+  &:focus {
+    outline: 0 !important;
+}
+
+
 `;
 
 export const CardLink = styled.a`
