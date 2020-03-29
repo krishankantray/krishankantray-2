@@ -78,13 +78,13 @@ export default function App(){
       <Para>
         Working as an Application Support Engineer at <b><font color='#389dd7'>C</font>VENT</b>, Gurgaon. 
         Here, I works on SQL, noSQL and RESTful API based reporting framework and responsible for finding troubleshooting application bugs.
-        <br />
-        Just in case if you are intrested in knowing a little about my background, then here it is. Starting from school, during primary
+        <br /> ...read more
+      {/* Just in case if you are intrested in knowing a little about my background, then here it is. Starting from school, during primary
         schooling days I used to be among top three rankers of my class. And my secondary schooling was spent mostly preparing for engineering
         entrance exams ( JEE Mains and Advance). Unfortunately, I could not even the clear the cutoff for IITs, but luckily I got admission in 
         a private college, Galgotias University, and I persued my engineering in Computer Science from there. After completing from graduation, I got 
         a job at Cvent as an Application Support Engineer. I learnt many things at Cvent, like how code is pushed to production and how its rolled back 
-        in case of high severity issues. And I am currently working at this company. 
+        in case of high severity issues. And I am currently working at this company. */ }
         <br/>
         And that's it about me. 😊
       </Para>
